@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Redirect</title>
+    </head>
+    <body id="body">
+        <!--<script src="Iframe.js"></script>-->
+        <form action="https://app.diagrams.net/" target="_blank" method="get">
+            <input type="submit" value="Go to new diagram" 
+            name="Submit" id="toDiagrams"/>
+        <!--<button class="button" type="button" onclick="show()" 
+        id="show">click me biatch</button>-->
+        </form>
+        <!--<iframe id="diagram" src="https://app.diagrams.net/"
+        width="800" height="600" style="border: none;">
+        </iframe>-->
+        <form target="_blank" method="get">
+            <input type="submit" onclick="opentemp()" value="Go to my template" 
+            name="Submit" id="templateDiagrams"/>
+        <script src="Func Temp.js"></script>
+        </form>
+    </body>
+</html>
+
+<!--På nuværende tidspunkt er min plan det følgende. 1. adgang til diagrams fra project hub (Done)
+2. åben template filer local og til diagrams
+    a. decode mxfiles til xml
+3. Åben samme filer fra storage på vores hub eller github?
+4. svær, men gemme filer i vores storage (kan dette lade sig gøre?)
